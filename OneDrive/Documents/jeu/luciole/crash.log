@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\jguo1\OneDrive\Documents\jeu\luciole\main.py", line 279, in <module>
+    Game().run()
+    ~~~~~~~~~~^^
+  File "C:\Users\jguo1\OneDrive\Documents\jeu\luciole\main.py", line 199, in run
+    draw_pause_menu(self.canvas, self.pause_selected)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jguo1\OneDrive\Documents\jeu\luciole\ui.py", line 129, in draw_pause_menu
+    arrow = font_item.render("›", True, color)
+            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ValueError: invalid color (color sequence must have size 3 or 4, and each element must be an integer in the range [0, 255])
